@@ -13,18 +13,33 @@ body {
   padding: 20px;
 }
 
+.kontejner {
+  display: flex;
+}
+
 .hlavicka {
   background-color: #2ecc71;
 }
+
 .hlavni {
   background-color: #f1c40f;
+  order: 2;
+  flex: 55%;
 }
+
 .levy {
   background-color: #3498db;
+  order: 1;
+  flex: 25%;
 }
+
 .pravy {
   background-color: #e74c3c;
+  order: 3;
+  flex: 20%;
+
 }
+
 .paticka {
   background-color: #9b59b6;
 }
